@@ -1,0 +1,23 @@
+{
+  "name": "learning-cljs",
+  "version": "1.0.0",
+  "description": "Running basic hello-world with lumo",
+  "main": "src/hello_world/core.cljs",
+  "scripts": {
+    "build": "lumo --classpath src build.cljs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninetails/learning-cljs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninetails/learning-cljs/issues"
+  },
+  "homepage": "https://github.com/ninetails/learning-cljs#readme",
+  "dependencies": {
+    "lumo-cljs": "^1.8.0-beta"
+  }
+}
